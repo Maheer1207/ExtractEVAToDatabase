@@ -1,7 +1,6 @@
 ﻿
 namespace EVA_Extract_Actuals
 {
-
     public interface Analysis
     {
         bool IsPreBase { get; }

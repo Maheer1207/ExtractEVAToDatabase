@@ -1,17 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 
 namespace EVA_Extract_Actuals
 {
-
     public class ZeroAnalysis : Analysis
     {
-
         [JsonIgnore]
         private Task _task;
         private TaskPackage _taskPackage;
-
 
         public ZeroAnalysis(int period, Task task)
         {
@@ -25,14 +20,13 @@ namespace EVA_Extract_Actuals
             _taskPackage = taskPackage;
         }
 
-
         public ZeroAnalysis(int period)
         {
             Period = period;
         }
 
-
         public bool IsPreBase { get; } = false;
+        
         public int Period { get; set; }
 
         public decimal? ActualCost { get; } = 0M;
@@ -80,7 +74,6 @@ namespace EVA_Extract_Actuals
         // Gets the standard deviation of the forecasted cost of the work task at completion.
         public decimal? ForecastAtCompletionStDev { get; } = 0M;
 
-
         // Gets a comment about the actual cost.
         public string Note { get; }
 
@@ -101,7 +94,7 @@ namespace EVA_Extract_Actuals
 
         // Gets the cumulative time-based schedule performance index.
         public decimal? SchedulePerformanceIndexTime { get; } = 0M;
-
+       
         public decimal? SchedulePerformanceIndexTimePeriod { get; } = 0M;
 
         public decimal? ScheduleVarianceCost { get; } = 0M;

@@ -6,7 +6,6 @@ namespace EVA_Extract_Actuals
 {
 	public static class PeriodBuilder
 	{
-
         public static List<DurationDates> GetStartAndEndDateList(List<DurationDates> durationDates, XmlNodeList children)
         {
             foreach (XmlElement child in children)

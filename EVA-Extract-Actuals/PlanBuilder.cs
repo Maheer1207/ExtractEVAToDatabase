@@ -7,7 +7,6 @@ namespace EVA_Extract_Actuals
 {
     internal static class PlanBuilder
     {
-
         public static Task CalculatePlan(Task task)
         {
             var distributionCode = task.Distribution.Code;
