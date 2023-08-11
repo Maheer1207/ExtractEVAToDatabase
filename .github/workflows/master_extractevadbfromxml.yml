@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'ExtractEvaDBFromXml'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F5423B92F9AF489982D21FF3371EE46D }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2962788A17B247AEA4CE435720640F10 }}
           package: .
