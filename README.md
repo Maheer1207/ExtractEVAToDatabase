@@ -1,4 +1,4 @@
-# Extract-EVA-To-DB
+# Extract-EVA-To-DB (Video Demo: https://youtu.be/qjQpj4gfp2o)
 
 The objective of this project was to extract and store the Earned Value Analysis (EVA) from existing projects utilized or created through the desktop Symphony App. This app conducts Earned Value Analysis for projects by utilizing their Plans and Actuals data. The aim was to establish a dedicated Database within the organization's designated Azure Cosmos DB. This would enable access for company personnel as well as a Web app developed specifically to manage Earned Value Analyses.
 
